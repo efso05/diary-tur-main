@@ -66,6 +66,8 @@ def form_create():
 
 
 
+
+
         return redirect('/')
     else:
         return render_template('create_card.html')
